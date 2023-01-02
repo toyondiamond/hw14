@@ -3,7 +3,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Book book1 = new Book("Snow", "Ivanov", 2020);
+
+        Book book1 = new Book("Snow","Ivanov",2020);
         System.out.println("book1.name = " + book1.getName());
         System.out.println("book1.author = " + book1.getAuthor());
         System.out.println("book1.year = " + book1.getYear());

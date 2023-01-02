@@ -1,14 +1,14 @@
 public class Book {
-    Book(String imya,String avtor,int god){
-        name =imya;
-        author=avtor;
-        year=god;
-    }
 
-    String name;
-    String author;
+    private String name;
+    private String author;
     int year;
 
+    Book(String name, String author, int year){
+        this.name =name;
+        this.author=author;
+        this.year=year;
+    }
     public String getName() {
         return name;
     }
@@ -23,22 +23,5 @@ public class Book {
 
     public void setYear(int year) {
         this.year = year;
-    }
-}
-class Author {
-
-    Author(String imyaAvtora, String familiaAvtora){
-        authorName =imyaAvtora;
-        authorSurname=familiaAvtora;
-    }
-    String authorName;
-    String authorSurname;
-
-    public String getAuthorName() {
-        return authorName;
-    }
-
-    public String getAuthorSurname() {
-        return authorSurname;
     }
 }
